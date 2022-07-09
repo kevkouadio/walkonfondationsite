@@ -39,9 +39,9 @@ function App() {
       <ImageSlider images={images} />
       <WhatWeDo />
       <Footer />
-      <button type="button" class="btn btn-success"
+      <button type="button" className="btn btn-success"
         id='scrollToTop-btn' onClick={scrollToTop}
-        style={{ display: visible ? 'inline' : 'none' }}><i class="fa-solid fa-arrow-up"></i></button>
+        style={{ display: visible ? 'inline' : 'none' }}><i className="fa-solid fa-arrow-up"></i></button>
     </div>
   );
 }

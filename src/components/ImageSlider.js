@@ -18,14 +18,13 @@ const ImageSlider = ({ images }) => {
     autoplaySpeed: 3000,
 
   };
-  console.log(images)
   return (
     <>
       <div className="imgslider">
         <Slider {...settings}>
           {images.map((item) => (
             <div key={item.id}>
-              <figure class="textcenter">
+              <figure className="textcenter">
                 <img src={item.src} alt={item.alt} />
                 <figcaption>
                   <h5>{item.title}</h5>

@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+
+#what-we-do-wrapper{
+  padding-top: 5%;
+  margin-bottom: 10%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#what-we-do-section h1{
+  color: #198754;
+  padding-bottom: 5%;
+}
+
+.card :hover{
+  background-color: #096d9e;
+  color:#fff;
+}
+
+.footer-area {
+  background-color: #096d9e;
+  padding-top: 3%;
+  padding-bottom: 1%;
+  color: #fff;
+}
+
+.footer-area a {
+  color: #fff;
+}
+
+.footer-bottom {
+  padding-top: 4%;
+}
+/*scrollToTop btn CSS*/
+#scrollToTop-btn {
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  padding: 13px;
+  border-radius: 50px;
+}
+
+/* slider CSS */
+.slick-slide img {
+  margin: auto;
+  width: 100%;
+  height: 80%;
+}
+
+.imgslider {
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+}
+
+.textcenter img { 
+  width: 100%;
+  filter: brightness(50%)
+}
+
+.textcenter { 
+  position: relative; 
+}
+.textcenter figcaption {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  /* font-size: 22px;
+  font-weight: 700; */
+}
+
+.slick-dots {
+  bottom: 0px !important;
+  /* color:#fff !important; */
+}

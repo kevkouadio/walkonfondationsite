@@ -10,7 +10,7 @@ const WhatWeDo = () => {
                 <h1>What we Do</h1>
                 <div className="row">
                     <div className="col-sm-4">
-                        <div className="card">
+                        <div className="card whd-card">
                         <img src={imgCoding} className="card-img-top" alt="html-CSS-JS-pic"/>
                             <div className="card-body">
                                 <h5 className="card-title">Intro to Coding</h5>
@@ -20,7 +20,7 @@ const WhatWeDo = () => {
                         </div>
                     </div>
                     <div className="col-sm-4">
-                        <div className="card">
+                        <div className="card whd-card">
                         <img src={imgSchoolSup} className="card-img-top" alt="html-CSS-JS-pic"/>
                             <div className="card-body">
                                 <h5 className="card-title">Provide school supplies</h5>
@@ -30,7 +30,7 @@ const WhatWeDo = () => {
                         </div>
                     </div>
                     <div className="col-sm-4">
-                        <div className="card">
+                        <div className="card whd-card">
                         <img src={imgScholarship} className="card-img-top" alt="html-CSS-JS-pic"/>
                             <div className="card-body">
                                 <h5 className="card-title">Scholarships and continued education</h5>

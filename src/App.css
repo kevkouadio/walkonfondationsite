@@ -2,15 +2,28 @@
   text-align: center;
   height: 100vh;
 }
+#who-we-are-section{
+  background-color: #096d9e;
+  color: #fff;
+}
 
+#description-div{
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
 
-#what-we-do-wrapper{
-  padding-top: 5%;
-  margin-bottom: 10%;
+iframe {
+  width: 100%;
+  height: 100%;
+}
+#what-we-do-wrapper, #who-we-are-wrapper{
+  padding-top: 8%;
+  padding-bottom: 8%;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
 }
+
 #what-we-do-section h1{
   color: #198754;
   padding-bottom: 5%;

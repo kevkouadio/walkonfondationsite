@@ -121,3 +121,17 @@ figcaption p{
 label {
   margin-top: 2%;
 }
+
+/*career page css*/
+.career-section {
+  padding: 5%;
+}
+
+.career-section p, .career-section ul, .career-section h5 {
+  text-align: left !important;
+}
+
+.career-section h1{
+  margin-bottom: 3%;
+  color: #198754;
+}

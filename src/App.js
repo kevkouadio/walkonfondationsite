@@ -6,6 +6,7 @@ import Nav from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import ContactUs from './pages/ContactUs';
 import Home from './pages/Home';
+import Career from './pages/Career'
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/contact" element={<ContactUs />} />
+          <Route exact path="/career" element={<Career />} />
         </Routes>
         <Footer />
         <button type="button" className="btn btn-success"

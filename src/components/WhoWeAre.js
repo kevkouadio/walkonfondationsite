@@ -14,7 +14,9 @@ const WhoWeAre = () => {
                             The Walk-On Foundation is an initiative that engages and advances under-resourced youth through
                             providing technological resources and skillsets for the purpose of providing a jump-start in
                             the exposure to STEM for further education and career interests.
-                        </p> 
+                        </p>
+                        <br />
+                        <button className="btn btn-success">Our Team</button> 
                     </div>
                     <div className="col-sm-6" id="video-Div">
                         <iframe

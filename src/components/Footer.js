@@ -1,6 +1,8 @@
-import logo from "./images/favicon.png"
-const Footer = () => {
+import logo from "./images/favicon.png";
+import {Link} from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
+const Footer = () => {
     return (
         <footer className="footer-area">
             <div className="footer-top bg-dark-blue">
@@ -15,7 +17,7 @@ const Footer = () => {
                         </div>
                         <div className="col-sm-4">
                             <div className="single-footer-widget">
-                                <h4>Contact Us</h4>
+                                <h3>Contact Us</h3>
                                 <div className="footer-c-info">
                                     <span className="f-c-icon"><i className="fa fa-home"></i> </span>
                                     <span className="f-c-text">Your address goes here.</span>
@@ -32,20 +34,20 @@ const Footer = () => {
                         </div>
                         <div className="col-sm-4">
                             <div className="single-footer-widget">
-                                <h4>links</h4>
+                                <h3>Links</h3>
                                 <div className="footer-c-info">
-                                    <span className="f-c-text"><a className="text-decoration-none" href="">Home</a></span>
+                                    <span className="f-c-text"><Link to="/">Home</Link></span>
                                 </div>
                                 <div className="footer-c-info">
-                                    <span className="f-c-text"><a className="text-decoration-none" href="">Who We Are</a></span>
+                                    <span className="f-c-text"><HashLink to="/#who-we-are-section">Who We Are</HashLink></span>
                                 </div><div className="footer-c-info">
-                                    <span className="f-c-text"><a className="text-decoration-none" href="">What We Do</a></span>
+                                    <span className="f-c-text"><HashLink to="/#what-we-do-section">What We Do</HashLink></span>
                                 </div>
                                 <div className="footer-c-info">
-                                    <span className="f-c-text"><a className="text-decoration-none" href="">Contact Us</a></span>
+                                    <span className="f-c-text"><Link to="/contact">Contact Us</Link></span>
                                 </div>
                                 <div className="footer-c-info">
-                                    <span className="f-c-text"><a className="text-decoration-none" href="">Careers</a></span>
+                                    <span className="f-c-text"><Link to="/career">Career</Link></span>
                                 </div>
                             </div>
                         </div>

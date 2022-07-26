@@ -107,3 +107,17 @@ iframe {
 figcaption p{
   margin: 2%;
 }
+
+/*contact page css*/
+.contact-section {
+  padding: 5%;
+}
+
+.contact-section h1{
+  margin-bottom: 5%;
+  color: #198754;
+}
+
+label {
+  margin-top: 2%;
+}

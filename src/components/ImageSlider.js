@@ -1,8 +1,5 @@
 import React from 'react'
 import Slider from "react-slick";
-// import "slick-carousel/";
-// import "slick-carousel/slick/slick-theme.css";
-
 
 
 const ImageSlider = ({ images }) => {
@@ -27,7 +24,7 @@ const ImageSlider = ({ images }) => {
               <figure className="textcenter">
                 <img src={item.src} alt={item.alt} />
                 <figcaption>
-                  <h5>{item.title}</h5>
+                  <h1>{item.title}</h1>
                   <p>{item.summary}</p>
                 </figcaption>
               </figure>

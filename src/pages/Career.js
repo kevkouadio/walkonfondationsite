@@ -7,7 +7,7 @@ const Career = () => {
                 <h1>Work with Us</h1>
                 <h3>Job detail</h3>
                 <h6>Part-time, Contract</h6>
-                <br/>
+                <br />
                 <p>
                     The Walk-On Foundation (TWOF) is an organization that engages and advances under-resourced scholars
                     through providing technological resources and skillsets for the purpose of providing a jump start
@@ -46,7 +46,50 @@ const Career = () => {
                     <li>High school or equivalent (Required)</li>
                     <li>Front-end development: 1 year (Preferred)</li>
                 </ul>
-                <button className="btn btn-success">Apply</button>
+                <button className="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Apply</button>
+                <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div className="modal-dialog">
+                        <div className="modal-content">
+                            <div className="modal-header">
+                                <h5 className="modal-title" id="exampleModalLabel">Send your application</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div className="modal-body">
+                                <form>
+                                    <div className="row">
+                                        <div class="col-sm-6">
+                                            <label for="exampleFormControlInput1" className="form-label">First Name</label>
+                                            <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="John Doe" />
+                                        </div>
+                                        <div className="col-sm-6">
+                                            <label for="exampleFormControlInput1" className="form-label">Last Name</label>
+                                            <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="John Doe" />
+                                        </div>
+                                    </div>
+                                    <div className="row">
+                                        <div className="col-sm-6">
+                                            <label for="exampleFormControlInput1" className="form-label">Phone Number</label>
+                                            <input type="number" className="form-control" id="exampleFormControlInput1" placeholder="999-999-9999" />
+                                        </div>
+                                        <div className="col-sm-6">
+                                            <label for="exampleFormControlInput1" className="form-label">Email address</label>
+                                            <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+                                        </div>
+                                    </div>
+                                    <div className="mb-3">
+                                    <label for="exampleFormControlInput1" className="form-label">Upload your resume</label>
+                                        <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload" />
+                                    </div>
+                                    <div className="mb-3">
+                                        <label for="exampleFormControlInput1" className="form-label">Cover Letter</label>
+                                        <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload" />
+                                    </div>
+                                    <button type="button" className="btn btn-success">Send </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>

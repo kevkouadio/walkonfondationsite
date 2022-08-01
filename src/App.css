@@ -107,8 +107,16 @@ iframe {
 figcaption p{
   margin: 2%;
 }
+.slick-prev {
+  left: 3% !important;
+  z-index: 1;
+}
+.slick-next {
+  right: 3% !important;
+  z-index: 1;
+}
 
-/*contact page css*/
+/*CONTACT PAGE CSS*/
 .contact-section {
   padding: 5%;
 }
